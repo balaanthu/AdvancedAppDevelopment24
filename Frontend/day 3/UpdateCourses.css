@@ -1,0 +1,118 @@
+/* UpdateCourses.css */
+/* Add or modify styles as needed */
+.update-courses-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .update-courses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .update-courses-table th,
+  .update-courses-table td {
+    border: 1px solid #ddd;
+    padding: 10px; /* Adjust padding for buttons */
+    text-align: left;
+  }
+  
+  .update-courses-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .update-courses-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .update-courses-table tbody tr:hover {
+    background-color: #d4e3f4;
+  }
+  
+  .update-courses-table td .updsub {
+    background-color: #f95c0d;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .update-courses-table td .updsub[type='button'] {
+    background-color: #ddd;
+    color: #000;
+    transition: background-color 0.3s;
+  }
+  
+  .update-courses-table td .updsub:hover {
+    background-color: #e76b1c;
+  }
+  
+  .update-courses-table td .updsub[type='button']:hover {
+    background-color: #ccc;
+  }
+  
+  .form-container22 {
+    margin-top: 20px;
+  }
+  
+  form {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  form h3 {
+    margin-bottom: 10px;
+  }
+  
+  form .updlab {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form .updin,
+  form .updtext {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  form .updsub {
+    background-color: #f95c0d;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  form .updsub[type='button'] {
+    background-color: #ddd;
+    color: #000;
+    transition: background-color 0.3s;
+  }
+  
+  form .updsub:hover {
+    background-color: #e76b1c;
+  }
+  
+  form .updsub[type='button']:hover {
+    background-color: #ccc;
+  }
+  .updimg{
+    background-image: url(https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  overflow-y: auto; /* Allow vertical scrolling */
+  }
+  .delcon{
+    background-color: white;
+  }
+  

@@ -1,0 +1,49 @@
+/* EnquiryForm.css */
+.enquiry-form-container11 {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* padding-top: 100px; */
+    background: transparent;
+    backdrop-filter: blur(70px);
+    
+  }
+  
+  .label11 {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .newinput,
+  .newtext {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .enqbut {
+    background-color: #f95c0d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.enqimg{
+    background-image: url(https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  overflow-y: auto; /* Allow vertical scrolling */
+
+}  
+.new11{
+    font-size: 55px;
+}
+.movecont{
+    padding-top: 50px;
+}

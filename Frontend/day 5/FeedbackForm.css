@@ -1,0 +1,52 @@
+/* FeedbackForm.css */
+/* Add or modify styles as needed */
+.feedback-form-container {
+    width: 30%; /* Reduce the width of the form container */
+    margin: auto;
+    padding: 20px;
+    backdrop-filter: blur(30px);
+    height: 60%;
+  }
+  
+  .feedback-form {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .feedback-form .feedlab {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-form .feedin,
+  .feedback-form .feedtext {
+    width: calc(100% - 16px); /* Reduce the width and consider padding */
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-form .feedsub {
+    background-color: #f95c0d;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .feedback-form .feedsub:hover {
+    background-color: #e76b1c;
+  }
+  
+  .feedimg {
+    background-image: url(https://c0.wallpaperflare.com/preview/930/516/852/architecture-tourism-touristic-big.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .feedcon {
+    padding-top: 100px;
+  }

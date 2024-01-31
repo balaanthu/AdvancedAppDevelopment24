@@ -1,0 +1,150 @@
+/* Dashboard.css */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .dashboard {
+    display: flex;
+    transition: margin-left 0.5s;
+    background-image: url('https://images.pexels.com/photos/6070384/pexels-photo-6070384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Set the background image */
+    background-size: cover;
+  }
+  
+  .side-panel {
+    width: 200px;
+    height: 800px;
+    padding: 20px;
+    background-color: #0a0909;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    transition: width 0.5s;
+    background: transparent;
+    backdrop-filter: blur(80px);
+    transition: margin-left 0.5s;
+  }
+  
+  .side-panel-open {
+    width: 0;
+  }
+  
+  .side-panel-button {
+    margin-bottom: 80px;
+    padding: 10px;
+    text-decoration: none;
+    color: #141212;
+    background-color: #d5d4db;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: margin-left 0.5s;
+    
+  }
+  
+  .side-panel-button:hover {
+    background-color: #f95c0d;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .toggle-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .dashname {
+    text-align: center;
+    /* text-decoration: dashed; */
+    font-family: 'Arial', sans-serif; /* Set your desired font-family */
+    animation: fadeIn 1s ease-out; /* Apply the fadeIn animation */
+    color: #1e0857;
+    font-size: 65px;
+    font-weight: 600;
+    text-shadow: #333;
+    padding-left: 800px;
+    padding-top: 200px;
+    
+  }
+/* Header.css */
+.dashname2 {
+    color: #e41414;
+    font-size: 55px;
+    font-weight: 600;
+    animation:fadeIn 1s alternate;
+    text-align: center;
+    padding-left: 800px;
+    
+  }
+  .center-image {
+    width: 30%;
+    height: 250px; /* Set the height of the image container */
+    background-image: url('https://i.pinimg.com/564x/e2/4c/b3/e24cb35aa76eacfee78968dbbfb7603d.jpg'); /* Set the background image for the center image */
+    background-size: cover;
+    margin-right: auto;
+    animation: fadeIn 1s ease-out; /* Apply fadeIn animation to the center image */
+    padding-left: 100px;
+  }
+  /* Add these styles to Dashboard.css */
+
+.user-icon {
+  margin-bottom: 80px;
+  padding: 10px;
+  text-decoration: none;
+  color: #141212;
+  background-color: #d5d4db;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.user-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #d5d4db;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.user-dropdown p {
+  margin: 0;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.user-dropdown button {
+  padding: 5px;
+  background-color: #f95c0d;
+  border: none;
+  color: #141212;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.user-dropdown button:hover {
+  background-color: #e76b1c;
+}
+.user-icon:hover{
+  background-color: #e76b1c;
+}
+
+
+  
