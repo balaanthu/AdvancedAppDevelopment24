@@ -1,0 +1,218 @@
+/* Dashboard.css */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .dashboard1 {
+    display: flex;
+    transition: margin-left 0.5s;
+    background-image: url('https://images.pexels.com/photos/6070384/pexels-photo-6070384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+  }
+  
+  .side-panel1 {
+    width: 200px;
+    height: 800px;
+    padding: 20px;
+    background-color: #0a0909;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    transition: width 0.5s;
+    background: transparent;
+    backdrop-filter: blur(80px);
+    transition: margin-left 0.5s;
+  }
+  
+  .side-panel-open {
+    width: 0;
+  }
+  
+  /* Adjusted styles for dropdown button */
+  .dropdown {
+    position: relative;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  
+  .side-panel-button1,
+  .dropdown button {
+    margin-bottom: 80px;
+    padding: 10px;
+    text-decoration: none;
+    color: #141212;
+    background-color: #d5d4db;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: margin-left 0.5s;
+    width: 100%;
+    display: block; /* Ensure the button takes up the full width */
+  }
+  
+  .side-panel-button1:hover,
+  .dropdown button:hover {
+    background-color: #f95c0d;
+  }
+  
+  /* Adjusted styles for dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d5d4db;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: -5px; /* Adjust the margin to bring it closer to the button */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .username {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .logout-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #f95c0d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .main-content1 {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .toggle-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .dashnamead {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    animation: fadeIn 1s ease-out;
+    color: #1e0857;
+    font-size: 65px;
+    font-weight: 600;
+    text-shadow: #333;
+    padding-left: 800px;
+    padding-top: 200px;
+  }
+  
+  .dashnamead2 {
+    color: #e41414;
+    font-size: 55px;
+    font-weight: 600;
+    animation: fadeIn 1s alternate;
+    text-align: center;
+    padding-left: 800px;
+  }
+  
+  .center-image {
+    width: 30%;
+    height: 250px;
+    background-image: url('https://i.pinimg.com/564x/e2/4c/b3/e24cb35aa76eacfee78968dbbfb7603d.jpg');
+    background-size: cover;
+    margin-right: auto;
+    animation: fadeIn 1s ease-out;
+    padding-left: 100px;
+  }
+  .side-panel-button{
+    margin-bottom: 80px;
+    padding: 10px;
+    text-decoration: none;
+    color: #141212;
+    background-color: #d5d4db;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    gap: 20px;
+    transition: margin-left 0.5s;
+  }
+  .dropdown {
+    position: relative;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  
+  .side-panel-button1,
+  .dropdown button {
+    margin-bottom: 16px;
+    padding: 10px;
+    text-decoration: none;
+    color: #141212;
+    background-color: #d5d4db;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: margin-left 0.5s;
+    width: 100%;
+    display: block; /* Ensure the button takes up the full width */
+  }
+  
+  .side-panel-button1:hover,
+  .dropdown button:hover {
+    background-color: #f95c0d;
+  }
+  
+  /* Adjusted styles for dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d5d4db;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: -5px; /* Adjust the margin to bring it closer to the button */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Make the username appear as a button to redirect to the profile page */
+  .username-button {
+    margin: 0;
+    padding: 10px;
+    display: block;
+    color: #141212;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .logout-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #f95c0d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* .tohome{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #f95c0d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  } */

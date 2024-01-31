@@ -1,0 +1,53 @@
+/* Register.css */
+.backimg{
+    background-image: url(https://c0.wallpaperflare.com/preview/930/516/852/architecture-tourism-touristic-big.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+.login-link{
+    padding: initial;
+    color: white;
+}
+.register-form {
+    max-width: 400px;
+    height: 770px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(30px);
+  }
+  
+  .head {
+    text-align: center;
+  }
+  
+  .lab {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .inp {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .but {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .but:hover {
+    background-color: #45a049;
+  }
+  
