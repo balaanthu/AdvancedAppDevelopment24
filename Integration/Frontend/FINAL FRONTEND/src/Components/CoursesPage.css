@@ -1,0 +1,58 @@
+/* View.css */
+
+.viewback {
+  background-color: #f0f0f0;
+  padding: 20px;
+  height: 100vh;
+  padding-top: 10%;
+  background-image: url(https://c0.wallpaperflare.com/preview/930/516/852/architecture-tourism-touristic-big.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.views {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#view {
+  padding: 20px;
+}
+
+.admintable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.admintable th,
+.admintable td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.admintable th {
+  background-color: #1f0bfc;
+  color: #fff;
+}
+
+.admintable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.admintable tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.h2ad {
+  color: #333;
+  margin-bottom: 20px;
+}

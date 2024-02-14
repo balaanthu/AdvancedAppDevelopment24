@@ -1,0 +1,43 @@
+/* EnrolledList.css */
+.enrolled-list-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .enrolled-list-form {
+    margin-top: 20px;
+  }
+  
+  .enrolled-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .enrolled-list-table th, .enrolled-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .enrolled-list-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .enrolled-list-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .enrolled-list-table tbody tr:hover {
+    background-color: #d4e3f4;
+  }
+  .listimg{
+    background-image: url(https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  overflow-y: auto; /* Allow vertical scrolling */
+  }
+  
